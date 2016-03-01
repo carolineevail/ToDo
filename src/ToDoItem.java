@@ -4,9 +4,11 @@
 public class ToDoItem {
     public String text; //to use this in JREPL, we had to add "public" on both fields//
     public boolean isDone;
+    public int id;
 
-    public ToDoItem(String text, boolean isDone) {
+    public ToDoItem(String text, boolean isDone, int id) {
         this.text = text;
         this.isDone = isDone;
+        this.id = id;
     }
 }
